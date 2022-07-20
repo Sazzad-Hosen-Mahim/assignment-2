@@ -1,0 +1,201 @@
+/* font  */
+/* common styles  */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*------------
+header section
+-------------*/
+.head-section{
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+.header{
+    width: 1421px;
+    height: 646px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: black;
+    
+}
+.heading{
+    padding-left: 30px;
+}
+.heading>h1{
+    font-size: 50px;
+}
+.heading-para{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.hcolor{
+    color: white;
+}
+.image img{
+    width: 581px;
+    height: 613px;
+    width: 100%;
+}
+.head-flex{
+    padding: 32px;
+    display: flex;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+}
+/* button  */
+.button{
+    margin-top: 20px;
+    background-color: rgb(253, 25, 25);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.main{
+    width: 1421px;
+    
+    margin: 0 auto;
+}
+
+
+/*--------------------
+menu style section 
+-------------------- */
+
+
+.menu{
+    border: 1px solid black;
+    height: 312px;
+    width: 312px;
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+}
+.menu-items{
+    padding: 33px;
+    margin: 10px;
+    background-color: rgb(248, 242, 242);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.match{
+    text-decoration: none;
+    color: black;
+}
+.colored{
+    background-color: red;
+    color: white;
+}
+
+/* blog items grid  */
+.blog-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* transfer news grid  */
+.transfer-news{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    
+    
+}
+.news{
+    width: 312px;
+    height: 362px;
+    border: 1px solid rgb(240, 237, 237);
+    border-radius: 10px;
+    
+    
+}
+.news img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.transfer-button{
+    margin-top: 24px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 8px 15px 8px 15px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.blog-heading{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-left: 20px;
+    margin-right: 30px;
+    color: rgb(95, 93, 93);
+}
+
+
+/*------------
+    footer
+------------*/
+.footer{
+    height: 444px;
+    background-color: black;
+    margin-top: 130px;
+}
+.f-heading{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    
+    
+}
+hr{
+    width: 70%;
+    margin:auto;
+    height: 1px;
+   background-color: rgb(226, 219, 219);
+    
+}
+.footer{
+    padding-bottom: 130px;
+}
+.footer-element{
+    padding-top: 120px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    
+}
+.footer-menu{
+    
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* if needed
+     display: grid;
+    grid-template-columns: repeat(7, 1fr); */
+    
+}
+.footer-menu-item{
+    color: rgb(189, 188, 188);
+    font-size: 20px;
+    margin-right: 30px;
+    
+}
+
+/*-------------------------
+    website 2 blog section  
+--------------------------*/
+
+
+
+/*---------------
+    media query
+----------------*/
