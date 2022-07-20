@@ -85,73 +85,46 @@ menu style section
     font-size: 17px;
     text-align: center;
 }
-.match{
+.upcoming-match{
     text-decoration: none;
-    color: black;
+    color: white;
+    
 }
 .colored{
     background-color: red;
-    color: white;
+    color: rgb(255, 251, 251);
 }
 
 /* blog items grid  */
 .blog-items{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 40px;
 }
-/* transfer news grid  */
-.transfer-news{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 24px;
-    row-gap: 24px;
-    
-    
-}
-.news{
+/* match style  */
+
+.schedule{
+    border: 1px solid rgb(236, 231, 231);
+    border-radius: 10px;
     width: 312px;
-    height: 362px;
-    border: 1px solid rgb(240, 237, 237);
-    border-radius: 10px;
-    
-    
-}
-.news img{
-    width: 100%;
-    border-radius: 10px;
-    
-}
-.transfer-button{
-    margin-top: 24px;
-    margin-left: 20px;
-    margin-bottom: 15px;
-    padding: 8px 15px 8px 15px;
-    background-color: white;
-    font-weight: 600;
-    border-radius: 5px;
-}
-.blog-heading{
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-.icon{
-    margin-left: 20px;
-    margin-right: 30px;
-    color: rgb(95, 93, 93);
+    height: 242px;
+    text-align: center;
+    padding-top: 100px;
+
 }
 
-.tab-button{
-    padding: 10px 30px 10px 30px;
-    background-color:rgb(87, 188, 228);
-    border: none;
-    border-radius: 10px;
-    display: flex;
-    margin: 0 auto;
-    font-weight: 700;
-    visibility: hidden;
-    
+.vs{
+    font-weight: 800;
+    margin: 10px;
 }
+
+/* match grid  */
+
+.match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+
 
 /*------------
     footer
@@ -225,22 +198,16 @@ hr{
    
    .header{
     width: 90%;
-    height: 472px;
+    height: 500px;
     
    }
    .heading{
     width: 258px;
     height: 178px;
    }
-   .heading-para{
-    margin-top: 30px;
-   }
-   .button{
-    margin-top: 30px;
-    text-align: center;
-   }
    .image>img{
-    margin-top: 120px;
+    /* padding-top: 0px; */
+    padding-top: 49px;
     width: 100%;
     height: 100%;
    }
@@ -275,10 +242,6 @@ hr{
     margin-top: 40px;
    }
 
-   .tab-button{
-    visibility: hidden;
-   }
-
    /*----------- footer option -------------   */
    
    .footer-menu{
@@ -295,12 +258,14 @@ hr{
     text-align: center;
     margin: 7px;
    }
+
+   /* for website 2  */
+   .match{
+    grid-template-columns: repeat(1, 1fr);
+    /* justify-items: center; */
+   }
 }
-
-
-/* media query for tablet devices  */
-
-
+/* tablet devices  */
 @media (min-width: 689px) and (max-width: 991px) {
     .header{
         width: 90%;
@@ -341,9 +306,6 @@ hr{
         grid-template-columns: repeat(2, 1fr);
         margin-top: 50px;
        }
-       .tab-button{
-       visibility: visible;
-       }
 
        /* footer option  */
 
@@ -355,4 +317,11 @@ hr{
         text-align: center;
         margin: 19px;
        }
+
+       /* for second website in tab  */
+       .match{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 70px;
+       }
+
 }
