@@ -1,53 +1,62 @@
 /* font  */
 /* common styles  */
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
 /*------------
 header section
 -------------*/
-.head-section{
+.head-section {
     margin-top: 70px;
     margin-bottom: 130px;
 }
-.header{
+
+.header {
     width: 1421px;
     height: 646px;
     margin: 0 auto;
     border-radius: 50px;
     background-color: black;
-    
+
 }
-.heading{
+
+.heading {
     padding-left: 30px;
 }
-.heading>h1{
+
+.heading>h1 {
     font-size: 50px;
 }
-.heading-para{
+
+.heading-para {
     font-size: 20px;
     text-align: justify;
 }
 
-.hcolor{
+.hcolor {
     color: white;
 }
-.image img{
+
+.image img {
     width: 581px;
     height: 613px;
     width: 100%;
 }
-.head-flex{
+
+.head-flex {
     padding: 32px;
     display: flex;
     align-items: center;
 }
-.half-width{
+
+.half-width {
     width: 50%;
 }
+
 /* button  */
-.button{
+.button {
     margin-top: 20px;
     background-color: rgb(253, 25, 25);
     padding: 20px;
@@ -56,9 +65,10 @@ header section
     border-radius: 7px;
     font-weight: 600;
 }
-.main{
+
+.main {
     width: 1421px;
-    
+
     margin: 0 auto;
 }
 
@@ -68,7 +78,7 @@ menu style section
 -------------------- */
 
 
-.menu{
+.menu {
     border: 1px solid black;
     height: 312px;
     width: 312px;
@@ -76,7 +86,8 @@ menu style section
     padding: 30px;
     border-radius: 20px;
 }
-.menu-items{
+
+.menu-items {
     padding: 33px;
     margin: 10px;
     background-color: rgb(248, 242, 242);
@@ -85,44 +96,50 @@ menu style section
     font-size: 17px;
     text-align: center;
 }
-.match{
+
+.match {
     text-decoration: none;
     color: black;
 }
-.colored{
+
+.colored {
     background-color: red;
     color: white;
 }
 
 /* blog items grid  */
-.blog-items{
+.blog-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 40px;
 }
+
 /* transfer news grid  */
-.transfer-news{
+.transfer-news {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px;
     row-gap: 24px;
-    
-    
+
+
 }
-.news{
+
+.news {
     width: 312px;
     height: 362px;
     border: 1px solid rgb(240, 237, 237);
     border-radius: 10px;
-    
-    
+
+
 }
-.news img{
+
+.news img {
     width: 100%;
     border-radius: 10px;
-    
+
 }
-.transfer-button{
+
+.transfer-button {
     margin-top: 24px;
     margin-left: 20px;
     margin-bottom: 15px;
@@ -131,82 +148,92 @@ menu style section
     font-weight: 600;
     border-radius: 5px;
 }
-.blog-heading{
+
+.blog-heading {
     margin-left: 20px;
     margin-bottom: 20px;
 }
-.icon{
+
+.icon {
     margin-left: 20px;
     margin-right: 30px;
     color: rgb(95, 93, 93);
 }
 
-.tab-button{
+.tab-button {
     padding: 10px 30px 10px 30px;
-    background-color:rgb(87, 188, 228);
+    background-color: rgb(87, 188, 228);
     border: none;
     border-radius: 10px;
     display: flex;
     margin: 0 auto;
     font-weight: 700;
     visibility: hidden;
-    
+
 }
 
 /*------------
     footer
 ------------*/
-.footer{
+.footer {
     height: 444px;
     background-color: black;
     margin-top: 130px;
 }
-.f-heading{
+
+.f-heading {
     margin-top: 40px;
     color: white;
     text-align: center;
-    
-    
+
+
 }
-hr{
+
+hr {
     width: 70%;
-    margin:auto;
+    margin: auto;
     height: 1px;
-   background-color: rgb(226, 219, 219);
-    
+    background-color: rgb(226, 219, 219);
+
 }
-.footer{
+
+.footer {
     padding-bottom: 130px;
 }
-.footer-element{
+
+.footer-element {
     padding-top: 120px;
     margin-bottom: 50px;
     font-size: 30px;
-    
+
 }
-.footer-menu{
-    
-    
+
+.footer-menu {
+
+
     margin-top: 50px;
     display: flex;
     justify-content: center;
     /* if needed
      display: grid;
     grid-template-columns: repeat(7, 1fr); */
-    
+
 }
-.footer-menu-item{
+
+.footer-menu-item {
     color: rgb(189, 188, 188);
     font-size: 20px;
     margin-right: 30px;
-    
+
 }
-.footer-icon{
+
+.footer-icon {
     text-align: center;
     text-decoration: none;
-    
+
 }
-.fa-brands{
+
+.fa-brands {
     color: rgb(223, 50, 50);
     font-size: 30px;
     margin-top: 50px;
@@ -219,82 +246,90 @@ hr{
     media query
 ----------------*/
 @media only screen and (max-width: 688px) {
-    .head-flex{
-    flex-direction: column;
-   }
-   
-   .header{
-    width: 90%;
-    height: 472px;
-    
-   }
-   .heading{
-    width: 258px;
-    height: 178px;
-   }
-   .heading-para{
-    margin-top: 30px;
-   }
-   .button{
-    margin-top: 30px;
-    text-align: center;
-   }
-   .image>img{
-    margin-top: 120px;
-    width: 100%;
-    height: 100%;
-   }
-   .heading>h1{
-    font-size: 22px;
-    text-align: center;
-    
-   }
-   .heading-para{
-    height: 48px;
-    overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap; 
-   }
-   
+    .head-flex {
+        flex-direction: column;
+    }
 
-   /* blog section  */
-   
-   .blog-items{
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-    
-    
-   }
-   
+    .header {
+        width: 90%;
+        height: 472px;
 
-   .transfer-news{
-    grid-template-columns: repeat(1, 1fr);
-    /* justify-content: center;
+    }
+
+    .heading {
+        width: 258px;
+        height: 178px;
+    }
+
+    .heading-para {
+        margin-top: 30px;
+    }
+
+    .button {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .image>img {
+        margin-top: 120px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .heading>h1 {
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    .heading-para {
+        height: 48px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+
+    /* blog section  */
+
+    .blog-items {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+
+
+    }
+
+
+    .transfer-news {
+        grid-template-columns: repeat(1, 1fr);
+        /* justify-content: center;
     align-items: center; */
-    margin-left: 30px;
-    margin-top: 40px;
-   }
+        margin-left: 30px;
+        margin-top: 40px;
+    }
 
-   .tab-button{
-    visibility: hidden;
-   }
+    .tab-button {
+        visibility: hidden;
+    }
 
-   /*----------- footer option -------------   */
-   
-   .footer-menu{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    
-    
-   }
-   .footer{
-    width: 100%;
-    height: 100%;
-   }
-   .footer-menu-item{
-    text-align: center;
-    margin: 7px;
-   }
+    /*----------- footer option -------------   */
+
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-menu-item {
+        text-align: center;
+        margin: 7px;
+    }
 }
 
 
@@ -302,57 +337,67 @@ hr{
 
 
 @media (min-width: 689px) and (max-width: 991px) {
-    .header{
+    .header {
         width: 90%;
         height: 540px;
     }
-    .heading{
+
+    .heading {
         width: 298px;
         height: 150px;
     }
-    .image{
+
+    .image {
         width: 100%;
         height: 100%;
     }
-    .image>img{
+
+    .image>img {
         width: 100%;
         height: 100%;
     }
-    .heading>h1{
+
+    .heading>h1 {
         font-size: 40px;
     }
-    .heading-para{
+
+    .heading-para {
         height: 48px;
         overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap; 
-       }
-       .main{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .main {
         width: 100%;
         height: 100%;
-       }
-       .blog-items{
+    }
+
+    .blog-items {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
-        
-        
-       }
-       .transfer-news{
+
+
+    }
+
+    .transfer-news {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 50px;
-       }
-       .tab-button{
-       visibility: visible;
-       }
+    }
 
-       /* footer option  */
+    .tab-button {
+        visibility: visible;
+    }
 
-       .footer{
+    /* footer option  */
+
+    .footer {
         width: 100%;
         height: 100%;
-       }
-       .footer-menu-item{
+    }
+
+    .footer-menu-item {
         text-align: center;
         margin: 19px;
-       }
+    }
 }
